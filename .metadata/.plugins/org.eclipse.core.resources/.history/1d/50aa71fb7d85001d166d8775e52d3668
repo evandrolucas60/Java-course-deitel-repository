@@ -1,0 +1,11 @@
+//Classe Student que armazena o nome e a média de um aluno.
+public class Student {
+	private String name;
+	private double average;
+	
+	//construtor inicializa variáveis de instância
+	public Student(String name, double average) {
+		this.name = name;
+		
+	}
+}

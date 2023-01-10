@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 9 resources" deleteContents="true" description="Delete 9 resources" element1="/01_cap3-account" element2="/02_construtor" element3="/03_contrutorTipoDouble_e_variávelDeInstancia" element4="/04_caixaDeDialogo" element5="/05_inputBox_dialogbox" element6="/06_instrucoes_if_else" element7="/07_instrucao_while" element8="/08_criandoDesenhosSimples" element9="/UCSDUnfoldingMaps" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="9" stamp="1671825876001"/>
+</session>
