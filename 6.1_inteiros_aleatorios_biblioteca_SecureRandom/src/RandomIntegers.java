@@ -1,5 +1,4 @@
 import java.security.SecureRandom;
-import java.util.Iterator;
 
 public class RandomIntegers {
 
