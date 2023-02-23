@@ -69,6 +69,8 @@ public class LetterGrades {
 		else { // nenhuma nota foi inserida, assim gera a saída da mensagem apropriada
 			System.out.println("No grades were entered");
 		}
+		
+		sc.close();
 	}//fim de main
 
 }//finaliza a classe letterGrades
