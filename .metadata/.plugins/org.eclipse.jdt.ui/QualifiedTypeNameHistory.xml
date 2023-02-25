@@ -4,10 +4,10 @@
     <fullyQualifiedTypeName name="java.awt.Graphics"/>
     <fullyQualifiedTypeName name="javax.swing.JPanel"/>
     <fullyQualifiedTypeName name="application.Account"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="AutoPolicy"/>
-    <fullyQualifiedTypeName name="java.security.SecureRandom"/>
     <fullyQualifiedTypeName name="Craps.Status"/>
+    <fullyQualifiedTypeName name="java.security.SecureRandom"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
