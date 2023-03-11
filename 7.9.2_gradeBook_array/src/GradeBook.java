@@ -28,7 +28,7 @@ public class GradeBook {
 		System.out.printf("%nClass average is %.2f%n", getAverage());
 		
 		//chama os métodos getMinumum e getMaximum
-		System.out.printf("Lowest grade is %d%nHighest grade is %d%n",
+		System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n",
 				getMinimum(), getMaximum());
 		
 		//chama outputBarChart para imprimir o gráfico
@@ -93,7 +93,7 @@ public class GradeBook {
 			if (count == 10) {
 				System.out.printf("%5d: ", 100);
 			} else {
-				System.out.printf("%02d-%02d ", count * 10, count * 10 + 9);
+				System.out.printf("%02d-%02d: ", count * 10, count * 10 + 9);
 			}
 
 			// imprime a barra de asteriscos
