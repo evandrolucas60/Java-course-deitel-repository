@@ -21,17 +21,16 @@ public class GradeBook {
 
 	// realiza várias operações nos dados
 	public void processGrades() {
-		//gera saída de array de notas
+		// gera saída de array de notas
 		outputGrades();
-		
-		//chama método getAverage para calcular a nota média
+
+		// chama método getAverage para calcular a nota média
 		System.out.printf("%nClass average is %.2f%n", getAverage());
-		
-		//chama os métodos getMinumum e getMaximum
-		System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n",
-				getMinimum(), getMaximum());
-		
-		//chama outputBarChart para imprimir o gráfico
+
+		// chama os métodos getMinumum e getMaximum
+		System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n", getMinimum(), getMaximum());
+
+		// chama outputBarChart para imprimir o gráfico
 		outoutBarChart();
 	}
 
@@ -105,16 +104,15 @@ public class GradeBook {
 			System.out.println();
 		}
 	}
-	
-	//gera saida do conteúdo do array de notas
+
+	// gera saida do conteúdo do array de notas
 	public void outputGrades() {
 		System.out.printf("The grades are:%n%n");
-		
-		//gera a saída da nota de cada aluno
-		for(int student = 0; student < grades.length; student++) {
-			System.out.printf("Student %2d: %3d%n", 
-					student + 1, grades[student]);
+
+		// gera a saída da nota de cada aluno
+		for (int student = 0; student < grades.length; student++) {
+			System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
 		}
 	}
 
-}//fim da class GradeBook
+}// fim da class GradeBook
